@@ -1,0 +1,15 @@
+{
+  "name": "gustke-automation",
+  "owner": {
+    "name": "Gustke Automation",
+    "url": "https://gustkeautomation.com"
+  },
+  "plugins": [
+    {
+      "name": "gustke-automation",
+      "source": "./gustke-automation",
+      "description": "Die Werkstatt-Programme von Gustke Automation in Claude: Postfächer, Buchhaltung, Firmenlaufwerk und Listen, ERP, Kalkulation, SOLIDWORKS, 3D-Druck und das Firmenwissen.",
+      "displayName": "Gustke Automation"
+    }
+  ]
+}

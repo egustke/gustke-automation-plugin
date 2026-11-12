@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "werkstatt": {
+      "command": "cmd",
+      "args": [
+        "/c",
+        "${CLAUDE_PLUGIN_ROOT}/start.cmd",
+        "alle"
+      ]
+    }
+  }
+}

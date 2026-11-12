@@ -1,0 +1,18 @@
+{
+  "name": "gustke-automation",
+  "version": "0.7.1",
+  "description": "Die Werkstatt-Programme von Gustke Automation in Claude: Postfächer, Buchhaltung, Firmenlaufwerk und Listen, ERP, Kalkulation, SOLIDWORKS, 3D-Druck und das Firmenwissen.",
+  "author": {
+    "name": "Gustke Automation",
+    "url": "https://gustkeautomation.com"
+  },
+  "displayName": "Gustke Automation",
+  "keywords": [
+    "werkstatt",
+    "erp",
+    "zerspanung",
+    "kalkulation",
+    "solidworks",
+    "3d-druck"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Den Rechner des Bedieners nie ohne Rueckfrage uebernehmen: Bildschirmsteuerung und sein eigener Chrome fragen jedes Mal.",
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "mcp__computer-use__request_access|mcp__computer-use__request_teach_access|mcp__claude-in-chrome__navigate|mcp__claude-in-chrome__tabs_create_mcp",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo '{\"hookSpecificOutput\":{\"hookEventName\":\"PreToolUse\",\"permissionDecision\":\"ask\",\"permissionDecisionReason\":\"Das uebernimmt den Bildschirm oder den eigenen Browser des Bedieners - nur mit seinem Ja.\"}}'"
+          }
+        ]
+      }
+    ]
+  }
+}
