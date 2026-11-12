@@ -9,4 +9,4 @@ Installation von Hand:
     claude plugin marketplace add egustke/gustke-automation-plugin
     claude plugin install gustke-automation@gustke-automation
 
-Die Werkzeuge selbst liefert das Setup der Werkstatt-Programme; dieses Repo enthaelt nur die Plugin-Huelle (Startskript, Skills, Befehle).
+Lizenz: siehe LICENSE (alle Rechte vorbehalten, Nutzung nur mit Lizenzvertrag). Die Werkzeuge selbst liefert das Setup der Werkstatt-Programme; dieses Repo enthaelt nur die Plugin-Huelle (Startskript, Skills, Befehle).
